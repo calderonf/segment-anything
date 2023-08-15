@@ -1,0 +1,16 @@
+name: segment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - flirimageextractor==1.5.3
+    - pycocotools 
+    - onnxruntime 
+    - onnx
+    - opencv-contrib-python==4.5.1.48
+    - torch 
+    - torchvision
+    
